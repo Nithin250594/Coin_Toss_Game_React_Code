@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.coin-toss-bg {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 50vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-title {
+  color: #a35200;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.coin-toss-sub-title {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.coin-image {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.toss-button {
+  background-color: #f9d423;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #a35200;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.heads-tails-count {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .heads-tails-count {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+
+.count-list {
+  margin-right: 21px;
+  margin-left: 21px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .count-list {
+    margin-bottom: 15px;
+  }
+}
